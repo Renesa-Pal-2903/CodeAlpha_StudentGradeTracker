@@ -46,9 +46,11 @@ StudentGradeTracker
     ├── Main.java
     ├── Student.java
     └── GradeTracker.java
+```
 
-🧩 Class Description
-Main.java
+## 🧩 Class Description
+
+### Main.java
 
 Acts as the entry point of the application.
 
@@ -59,7 +61,8 @@ It:
 • Creates student objects
 • Handles user choices
 • Calls appropriate methods from GradeTracker
-• Student.java
+
+### Student.java
 
 Represents an individual student.
 
@@ -76,7 +79,8 @@ It also performs:
 • Lowest score calculation
 • Grade calculation
 • Pass/Fail determination
-• GradeTracker.java
+
+### GradeTracker.java
 
 Manages multiple student records using an ArrayList.
 
@@ -89,20 +93,20 @@ It provides functionality to:
 • Display average, highest and lowest scores
 • Find the top-performing student
 
-🧠 OOP Concepts Used
-1. Encapsulation
+## 🧠 OOP Concepts Used
+### 1. Encapsulation
 
 Student data members are declared as private and accessed through methods such as getters.
 
-2. Classes and Objects
+### 2. Classes and Objects
 
 The application uses separate classes for students and grade management. Each student is represented as an object of the Student class.
 
-3. Abstraction
+### 3. Abstraction
 
-Complex operations such as calculating averages, grades, and results are handled inside methods, keeping the main program easier to manage.
+Complex operations such as calculating averages, grades and results are handled inside methods, keeping the main program easier to manage.
 
-📊 Grading System
+## 📊 Grading System
 Average Marks	Grade
 90 - 100	     A+
 80 - 89	         A
@@ -114,23 +118,24 @@ Below 40	     F
 
 A student is considered PASS when all subject marks are 40 or above. If any subject mark is below 40, the result is FAIL.
 
-▶️ How to Run
-Step 1: Open the project
+## ▶️ How to Run
+### Step 1: Open the project
 
 Open the StudentGradeTracker folder in VS Code.
 
-Step 2: Open the terminal
+### Step 2: Open the terminal
 
 Navigate to the src folder:
 cd src
 
-Step 3: Compile the Java files
+### Step 3: Compile the Java files
 javac *.java
 
-Step 4: Run the application
+### Step 4: Run the application
 java Main
 
-🖥️ Application Menu
+## 🖥️ Application Menu
+```text
 ==========================================
           STUDENT GRADE TRACKER
 ==========================================
@@ -143,8 +148,8 @@ java Main
 6. Display Student Report
 7. Find Top Performing Student
 8. Exit
-
-🎯 Learning Outcomes
+```
+## 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -158,7 +163,7 @@ Through this project, I gained practical experience in:
 • Data management
 • Console-based application development
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Renesa Pal
 
