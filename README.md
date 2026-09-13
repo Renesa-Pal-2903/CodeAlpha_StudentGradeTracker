@@ -68,17 +68,17 @@ Represents an individual student.
 
 It stores:
 
-• Student name
-• Roll number
-• Subject-wise marks
+- Student name
+- Roll number
+- Subject-wise marks
 
 It also performs:
 
-• Average calculation
-• Highest score calculation
-• Lowest score calculation
-• Grade calculation
-• Pass/Fail determination
+- Average calculation
+- Highest score calculation
+- Lowest score calculation
+- Grade calculation
+- Pass/Fail determination
 
 ### GradeTracker.java
 
@@ -86,12 +86,12 @@ Manages multiple student records using an ArrayList.
 
 It provides functionality to:
 
-• Add students
-• Search students by roll number
-• Display all students
-• Generate detailed student reports
-• Display average, highest and lowest scores
-• Find the top-performing student
+- Add students
+- Search students by roll number
+- Display all students
+- Generate detailed student reports
+- Display average, highest and lowest scores
+- Find the top-performing student
 
 ## 🧠 OOP Concepts Used
 ### 1. Encapsulation
@@ -107,6 +107,7 @@ The application uses separate classes for students and grade management. Each st
 Complex operations such as calculating averages, grades and results are handled inside methods, keeping the main program easier to manage.
 
 ## 📊 Grading System
+```text
 Average Marks	Grade
 90 - 100	     A+
 80 - 89	         A
@@ -117,7 +118,7 @@ Average Marks	Grade
 Below 40	     F
 
 A student is considered PASS when all subject marks are 40 or above. If any subject mark is below 40, the result is FAIL.
-
+```
 ## ▶️ How to Run
 ### Step 1: Open the project
 
@@ -153,15 +154,15 @@ java Main
 
 Through this project, I gained practical experience in:
 
-• Java programming
-• Object-Oriented Programming
-• Classes and objects
-• Encapsulation
-• ArrayList and LinkedHashMap
-• Loops and conditional statements
-• Input validation
-• Data management
-• Console-based application development
+- Java programming
+- Object-Oriented Programming
+- Classes and objects
+- Encapsulation
+- ArrayList and LinkedHashMap
+- Loops and conditional statements
+- Input validation
+- Data management
+- Console-based application development
 
 ## 👩‍💻 Author
 
