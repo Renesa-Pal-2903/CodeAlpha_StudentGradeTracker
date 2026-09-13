@@ -54,40 +54,41 @@ Acts as the entry point of the application.
 
 It:
 
-Displays the main menu
-Takes input from the user
-Creates student objects
-Handles user choices
-Calls appropriate methods from GradeTracker
-Student.java
+• Displays the main menu
+• Takes input from the user
+• Creates student objects
+• Handles user choices
+• Calls appropriate methods from GradeTracker
+• Student.java
 
 Represents an individual student.
 
 It stores:
 
-Student name
-Roll number
-Subject-wise marks
+• Student name
+• Roll number
+• Subject-wise marks
 
 It also performs:
 
-Average calculation
-Highest score calculation
-Lowest score calculation
-Grade calculation
-Pass/Fail determination
-GradeTracker.java
+• Average calculation
+• Highest score calculation
+• Lowest score calculation
+• Grade calculation
+• Pass/Fail determination
+• GradeTracker.java
 
 Manages multiple student records using an ArrayList.
 
 It provides functionality to:
 
-Add students
-Search students by roll number
-Display all students
-Generate detailed student reports
-Display average, highest and lowest scores
-Find the top-performing student
+• Add students
+• Search students by roll number
+• Display all students
+• Generate detailed student reports
+• Display average, highest and lowest scores
+• Find the top-performing student
+
 🧠 OOP Concepts Used
 1. Encapsulation
 
@@ -103,13 +104,13 @@ Complex operations such as calculating averages, grades, and results are handled
 
 📊 Grading System
 Average Marks	Grade
-90 - 100	A+
-80 - 89	A
-70 - 79	B+
-60 - 69	B
-50 - 59	C
-40 - 49	D
-Below 40	F
+90 - 100	     A+
+80 - 89	         A
+70 - 79	         B+
+60 - 69	         B
+50 - 59	         C
+40 - 49	         D 
+Below 40	     F
 
 A student is considered PASS when all subject marks are 40 or above. If any subject mark is below 40, the result is FAIL.
 
@@ -121,12 +122,14 @@ Open the StudentGradeTracker folder in VS Code.
 Step 2: Open the terminal
 
 Navigate to the src folder:
-
 cd src
+
 Step 3: Compile the Java files
 javac *.java
+
 Step 4: Run the application
 java Main
+
 🖥️ Application Menu
 ==========================================
           STUDENT GRADE TRACKER
@@ -140,32 +143,23 @@ java Main
 6. Display Student Report
 7. Find Top Performing Student
 8. Exit
+
 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
-Java programming
-Object-Oriented Programming
-Classes and objects
-Encapsulation
-ArrayList and LinkedHashMap
-Loops and conditional statements
-Input validation
-Data management
-Console-based application development
+• Java programming
+• Object-Oriented Programming
+• Classes and objects
+• Encapsulation
+• ArrayList and LinkedHashMap
+• Loops and conditional statements
+• Input validation
+• Data management
+• Console-based application development
+
 👩‍💻 Author
 
 Renesa Pal
 
 Java Development Intern
-
-
-### Then:
-
-1. **Ctrl + S** to save.
-2. Don't run the program.
-3. Don't run Git yet.
-
-Once saved, tell me **“saved”**.
-
-Then I'll give you the **2 Git commands needed to update the README on GitHub**. We won't repeat the whole GitHub setup.
