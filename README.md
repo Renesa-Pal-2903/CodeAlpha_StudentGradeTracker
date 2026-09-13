@@ -56,11 +56,11 @@ Acts as the entry point of the application.
 
 It:
 
-• Displays the main menu
-• Takes input from the user
-• Creates student objects
-• Handles user choices
-• Calls appropriate methods from GradeTracker
+- Displays the main menu
+- Takes input from the user
+- Creates student objects
+- Handles user choices
+- Calls appropriate methods from GradeTracker
 
 ### Student.java
 
